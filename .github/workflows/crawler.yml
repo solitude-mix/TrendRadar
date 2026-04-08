@@ -40,7 +40,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: crawler-${{ github.ref_name }}
+  group: crawler-v2-${{ github.ref_name }}
   cancel-in-progress: true
 
 permissions:
